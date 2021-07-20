@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(336deg, #e71b70, #de78b4, #d31a46, #ad2e4d);
+    background-size: 800% 800%;
+    animation-name: example;
+    -webkit-animation: example 22s ease infinite;
+    animation: example 22s ease infinite;
+}
+
+@-webkit-keyframes example {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+
+@keyframes example {
+    0%{background-position:15% 0%}
+    50%{background-position:86% 100%}
+    100%{background-position:15% 0%}
+}
+
+h1{
+  font-family: 'Indie Flower';
+  color:#ffffff;
+}
+h4{
+  color:#ffffff;
+  font-family: 'Indie Flower';
+}
